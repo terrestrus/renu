@@ -1,0 +1,75 @@
+.main-form {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 105px;
+  width: 355px;
+  height: 365px;
+  background: #ffea00;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.main-form__title {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  font-size: 21px;
+  vertical-align: 60px;
+  color: $dark-text-color;
+  font-family: LatoRegular, Arial, sans-serif;
+}
+
+.main-form__field {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 40px;
+  max-width: 300px;
+  min-height: 57px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 21px;
+
+
+   [placeholder] {
+     font-family: LatoRegular, Arial, sans-serif;
+  }
+}
+
+.main-from__name-title {
+  margin: 0 auto;
+  margin-bottom: -25px;
+  font-size: 16px;
+  vertical-align: 60px;
+  font-family: LatoLight, Arial, sans-serif;
+  z-index: 3;
+
+
+}
+
+.main-form__tel-title {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  font-size: 16px;
+  vertical-align: 60px;
+  font-family: LatoLight, Arial, sans-serif;
+  z-index: 3;
+}
+
+.main-form__line {
+  margin-left: 29px;
+  margin-bottom: 10px;
+  height: 1px;
+  width: 165px;
+  background-color: #bfaf01;
+}
+
+.main-form__warning {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 195px;
+  font-size: 13px;
+  font-family: LatoLightItalic, Arial, sans-serif;
+
+}

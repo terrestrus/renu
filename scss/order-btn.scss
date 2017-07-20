@@ -1,0 +1,13 @@
+.order-btn {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  min-height: 47px;
+  min-width: 300px;
+  border-radius: 20px;
+  border: 1px solid linear-gradient(90deg, #ee2525, #b00707);;
+  background: linear-gradient(180deg, #ee2525, #b00707);
+  color: $light-text-color;
+  font-size: 21px;
+  font-family: LatoRegular, Arial, sans-serif;
+}

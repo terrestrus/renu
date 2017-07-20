@@ -1,0 +1,22 @@
+.main-price {
+  position: absolute;
+  top: 105px;
+  left: 23%;
+  z-index: 3;
+}
+
+.main-price img {
+  width: 514px;
+  height: 518px;
+  z-index: 3;
+}
+
+.main-price__text {
+  position: absolute;
+  top: 238px;
+  left: 33%;
+  font-size: 45px;
+  color: $light-text-color;
+  transform: rotate(-15deg);
+
+}
