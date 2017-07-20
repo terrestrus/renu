@@ -1,7 +1,8 @@
 .order-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 12px;
   min-height: 47px;
   min-width: 300px;
   border-radius: 20px;
@@ -11,3 +12,9 @@
   font-size: 21px;
   font-family: LatoRegular, Arial, sans-serif;
 }
+
+form .order-btn {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
