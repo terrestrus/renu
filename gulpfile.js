@@ -83,7 +83,7 @@ gulp.task("serve", ["style"], function() {
 
   gulp.watch("scss/**/*.{scss,sass}", ["style"]);
   gulp.watch("*.html").on("change", server.reload);
-  //gulp.watch("*.html", ["html:update"]);
+  gulp.watch("*.html", ["html:update"]);
 });
 
   gulp.task("build", function(fn) {
