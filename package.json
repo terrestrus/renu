@@ -1,8 +1,8 @@
 {
-  "name": "mishka",
+  "name": "renumax",
   "version": "0.1.0",
   "private": true,
-  "description": "Личный проект «Мишка» от HTML Academy",
+  "description": "Renumax",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "0.1.x",
     "autoprefixer": "6.7.x",

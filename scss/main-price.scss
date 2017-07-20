@@ -1,20 +1,20 @@
-.main-price {
+.head-wrapper .main-price {
   position: absolute;
   top: 105px;
-  left: 23%;
+  right: 310px;
   z-index: 3;
 }
 
-.main-price img {
+.head-wrapper .main-price img {
   width: 514px;
   height: 518px;
   z-index: 3;
 }
 
-.main-price__text {
+.head-wrapper .main-price__text {
   position: absolute;
-  top: 238px;
-  left: 33%;
+  top: 230px;
+  right: 160px;
   font-size: 45px;
   color: $light-text-color;
   transform: rotate(-15deg);
