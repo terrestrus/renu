@@ -1,0 +1,56 @@
+.how-to-use {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //align-items: center;
+  margin: 0 auto;
+  margin-top: 27px;
+  max-width: 960px;
+
+}
+
+.how-to-use__title {
+  padding-left: 300px;
+  font-size: 32px;
+  font-family: LatoSemibold, Arial, sans-serif;
+  text-transform: uppercase;
+  color: $light-text-color;
+}
+
+.how-to-use__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+
+.how-to-use__item {
+  font-size: 24px;
+  font-family: LatoSemibold, Arial, Helvetica, sans-serif;
+  color: $light-text-color;
+}
+
+.how-to-use__steps {
+  display: flex;
+  flex-direction: row;
+}
+
+.how-to-use__order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  width: 56px;
+  height: 56px;
+  background-color: #ffec27;
+  border: 3px solid black;
+  border-radius: 100%;
+  font-size: 40px;
+  font-family: LatoBlack, Arial, Helvetica, sans-serif;
+}
+
+.how-to-use__steps:first-child {
+  background: black;
+}
