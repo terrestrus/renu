@@ -5,7 +5,7 @@
   justify-content: center;
   margin-right: 105px;
   width: 355px;
-  height: 365px;
+  height: 375px;
   background: #ffea00;
   box-sizing: border-box;
  }
@@ -29,12 +29,10 @@
   border-radius: 10px;
   font-size: 21px;
   z-index: 10;
+}
 
-
-   [placeholder] {
-     margin-top: 10px;
-     font-family: LatoRegular, Arial, sans-serif;
-  }
+.main-form__field::placeholder {
+   font-family: LatoRegular, Arial, sans-serif;
 }
 
 .main-form__name-title {

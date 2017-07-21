@@ -1,10 +1,9 @@
 .page-footer {
   position: relative;
   min-height: 406px;
-  width: 100vw;
   background: black;
   box-sizing: border-box;
-
+  overflow: hidden;
 }
 
 .page-footer:after {
