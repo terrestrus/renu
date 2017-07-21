@@ -1,10 +1,13 @@
 .main-description {
+  position: relative;
   margin: 0 auto;
   margin-bottom: -10px;
-  padding: 20px 30px 40px;
-  max-width: 960px;
+  padding: 20px 30px 30px;
+  max-width: 900px;
   background-color: #fff;
   font-size: 16px;
   font-family: LatoRegular, Arial, sans-serif;
   border-radius: 5px;
+  box-sizing: border-box;
+  z-index: 4;
 }

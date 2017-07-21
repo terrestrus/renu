@@ -1,6 +1,15 @@
 .first-screen {
   position: relative;
-  width: 100%;
-  min-height: 1610px;
+  min-height: 1600px;
   background-color: #000;
+  box-sizing: border-box;
 }
+
+.first-screen__auto {
+  position: absolute;
+  right: -480px;
+  top: 10px;
+  overflow: hidden;
+  z-index: 3;
+}
+

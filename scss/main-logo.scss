@@ -1,10 +1,24 @@
-.main-logo {
+.first-screen .main-logo {
+  position: relative;
   margin-top: 67px;
   height: 124px;
-  width: 286;
+  width: 296;
   background-color: #d32929;
+  z-index: 4;
 }
 
+.first-screen .main-logo:before {
+  content: "";
+  position: absolute;
+  left: 217px;
+  top: 18px;
+  display: block;
+  width: 88px;
+  height: 88px;
+  background-color: #d32929;
+  transform: rotate(45deg);
+  z-index: -1;
+}
 
 
 .main-logo__title {
@@ -15,14 +29,26 @@
   color: $light-text-color;
   font-family: LatoBold, Arial, sans-serif;
   text-transform: uppercase;
-}
+ }
 
 .main-logo__slogan {
-
   max-width: 262px;
   font-size: 17px;
   vertical-align: 24px;
   color: $light-text-color;
   font-family: LatoSemibold, Arial, sans-serif;
   text-transform: uppercase;
+}
+
+.page-footer .main-logo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page-footer .main-logo__slogan {
+  display: inline-block;
+  margin-top: 16px;
+  margin-left: 20px;
+  width: 365px;
 }

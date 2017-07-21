@@ -1,4 +1,5 @@
 .main-form {
+  position: relative;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -7,8 +8,7 @@
   height: 365px;
   background: #ffea00;
   box-sizing: border-box;
-  z-index: 2;
-}
+ }
 
 .main-form__title {
   margin: 0 auto;
@@ -28,22 +28,22 @@
   border: 1px solid black;
   border-radius: 10px;
   font-size: 21px;
+  z-index: 10;
 
 
    [placeholder] {
+     margin-top: 10px;
      font-family: LatoRegular, Arial, sans-serif;
   }
 }
 
-.main-from__name-title {
+.main-form__name-title {
   margin: 0 auto;
   margin-bottom: -25px;
   font-size: 16px;
   vertical-align: 60px;
   font-family: LatoLight, Arial, sans-serif;
-  z-index: 3;
-
-
+  z-index: 11;
 }
 
 .main-form__tel-title {
@@ -53,7 +53,7 @@
   font-size: 16px;
   vertical-align: 60px;
   font-family: LatoLight, Arial, sans-serif;
-  z-index: 3;
+  z-index: 11;
 }
 
 .main-form__line {
@@ -66,9 +66,19 @@
 
 .main-form__warning {
   margin: 0 auto;
+  margin-left: 25px;
   margin-bottom: 20px;
   width: 195px;
   font-size: 13px;
   font-family: LatoLightItalic, Arial, sans-serif;
-
 }
+
+.page-footer .main-form {
+  float: right;
+  margin-right: 0;
+  margin-top: 35px;
+  max-height: 318px;
+  border-radius: 8px;
+}
+
+

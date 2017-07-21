@@ -1,0 +1,35 @@
+.page-footer {
+  position: relative;
+  min-height: 406px;
+  width: 100vw;
+  background: black;
+  box-sizing: border-box;
+
+}
+
+.page-footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page-footer__wrapper {
+  margin: 0 auto;
+  width: 960px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.page-footer__auto {
+  position: absolute;
+  left: -330px;
+  top: 60px;
+  z-index: 0;
+}
+
+.page-footer__renu {
+  position: absolute;
+  top: 130px;
+  left: 440px;
+  z-index: 0;
+}
